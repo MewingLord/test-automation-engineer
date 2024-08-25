@@ -1,0 +1,7 @@
+# Handle text files with LF line endings
+* text=auto
+
+# Force specific line endings for certain file types
+*.sh text eol=lf
+*.bat text eol=crlf
+*.html text eol=crlf
